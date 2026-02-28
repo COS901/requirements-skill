@@ -24,7 +24,7 @@ AI-assisted teams move fast, but requirement docs often drift from code and tick
 
 ```bash
 python3 .claude/scripts/check_requirements_conflicts.py --root examples/saas-webapp/requirements
-python3 .claude/scripts/extract_requirements_changelog.py --range HEAD~20..HEAD --changelog-file examples/saas-webapp/requirements/CHANGELOG.md
+python3 .claude/scripts/extract_requirements_changelog.py --range HEAD --changelog-file examples/saas-webapp/requirements/CHANGELOG.md
 ```
 
 ## Conventions

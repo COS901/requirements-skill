@@ -178,7 +178,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--range",
-        default="HEAD~20..HEAD",
+        default="HEAD",
         help="Git revision range to inspect (default: HEAD~20..HEAD)",
     )
     parser.add_argument(

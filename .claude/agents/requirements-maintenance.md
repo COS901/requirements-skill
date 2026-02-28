@@ -92,11 +92,11 @@ Req-Summary: <single sentence>
 Generate summary from commit history:
 
 ```bash
-python3 .claude/scripts/extract_requirements_changelog.py --range HEAD~20..HEAD --changelog-file <requirements-root>/CHANGELOG.md
+python3 .claude/scripts/extract_requirements_changelog.py --range HEAD --changelog-file <requirements-root>/CHANGELOG.md
 ```
 
 Apply directly to changelog:
 
 ```bash
-python3 .claude/scripts/extract_requirements_changelog.py --range HEAD~20..HEAD --changelog-file <requirements-root>/CHANGELOG.md --apply
+python3 .claude/scripts/extract_requirements_changelog.py --range HEAD --changelog-file <requirements-root>/CHANGELOG.md --apply
 ```

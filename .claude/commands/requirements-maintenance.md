@@ -13,8 +13,8 @@ Update and normalize project requirement docs (`<requirements-register>`, `<requ
 5. Repair indexes and relative links after edits.
 6. Use requirements commit convention (`docs(requirements-<area>): ...`).
 7. When requested, extract/apply requirements changelog updates:
-   - `python3 .claude/scripts/extract_requirements_changelog.py --range HEAD~20..HEAD --changelog-file <requirements-root>/CHANGELOG.md`
-   - `python3 .claude/scripts/extract_requirements_changelog.py --range HEAD~20..HEAD --changelog-file <requirements-root>/CHANGELOG.md --apply`
+   - `python3 .claude/scripts/extract_requirements_changelog.py --range HEAD --changelog-file <requirements-root>/CHANGELOG.md`
+   - `python3 .claude/scripts/extract_requirements_changelog.py --range HEAD --changelog-file <requirements-root>/CHANGELOG.md --apply`
 
 ## Scope
 
