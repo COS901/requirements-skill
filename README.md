@@ -11,13 +11,15 @@ AI-assisted teams move fast, but requirement docs often drift from code and tick
 - A lightweight maintenance workflow for requirements-as-code
 - Automated conflict detection before merge
 - Changelog extraction from conventional commits for requirement history
+- Agent-ready definitions for both Claude and Codex/OpenAI
 - A concrete SaaS example tree you can copy or adapt
 
 ## Includes
 
-- Claude agent and command for requirements maintenance (`.claude/agents`, `.claude/commands`)
-- Deterministic conflict detection (`.claude/scripts/check_requirements_conflicts.py`)
-- Requirements changelog extraction from conventional commits (`.claude/scripts/extract_requirements_changelog.py`)
+- Claude workflow files (`.claude/agents`, `.claude/commands`, `.claude/references`)
+- Codex/OpenAI skill (`.codex/skills/requirements-maintenance`)
+- Deterministic conflict detection script (`.claude/scripts/check_requirements_conflicts.py`)
+- Requirements changelog extraction script (`.claude/scripts/extract_requirements_changelog.py`)
 - Example requirements tree for a typical SaaS web app (`examples/saas-webapp/`)
 
 ## Quick Start
@@ -26,6 +28,17 @@ AI-assisted teams move fast, but requirement docs often drift from code and tick
 python3 .claude/scripts/check_requirements_conflicts.py --root examples/saas-webapp/requirements
 python3 .claude/scripts/extract_requirements_changelog.py --range HEAD --changelog-file examples/saas-webapp/requirements/CHANGELOG.md
 ```
+
+## Codex/OpenAI Usage
+
+Copy the skill folder into your Codex skills directory:
+
+```bash
+mkdir -p ~/.codex/skills
+cp -R .codex/skills/requirements-maintenance ~/.codex/skills/
+```
+
+Then use the `requirements-maintenance` skill while editing your project requirements.
 
 ## Conventions
 
