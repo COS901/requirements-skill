@@ -1,4 +1,0 @@
-interface:
-  display_name: "Requirements Maintenance"
-  short_description: "Maintain requirements-as-code with conflict detection and changelog-ready summaries."
-  default_prompt: "Update project requirements docs, fix links and duplication risks, run the conflict checker, and provide requirement change summaries suitable for conventional commits."
